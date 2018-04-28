@@ -17,7 +17,8 @@ body.compensate-for-scrollbar {
 .fancybox-container {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+ 'Segoe UI Emoji', 'Segoe UI Symbol';
   height: 100%;
   left: 0;
   position: fixed;
@@ -483,7 +484,7 @@ body.compensate-for-scrollbar {
 .fancybox-caption {
   bottom: 0;
   color: #fff;
-  font-size: 14px;
+  font-size: 22px;
   font-weight: 400;
   left: 0;
   line-height: 1.5;
@@ -1071,8 +1072,8 @@ table {
   position: absolute;
   top: 50%;
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   padding: 0;
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
@@ -1108,7 +1109,7 @@ table {
 .slick-prev:before,
 .slick-next:before {
   font-family: 'slick';
-  font-size: 20px;
+  font-size: 40px;
   line-height: 1;
   opacity: .75;
   color: white;
@@ -1117,7 +1118,8 @@ table {
 }
 
 .slick-prev {
-  left: -25px;
+  left: 30px;
+  z-index: 2;
 }
 
 [dir='rtl'] .slick-prev {
@@ -1134,7 +1136,7 @@ table {
 }
 
 .slick-next {
-  right: -25px;
+  right: 30px;
 }
 
 [dir='rtl'] .slick-next {
@@ -1388,7 +1390,7 @@ table {
   padding: 5px 15px;
   display: none;
   position: absolute;
-  min-width: 190px;
+  min-width: 200px;
   border: 1px solid #dddddd;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
@@ -1396,13 +1398,13 @@ table {
 
 .menu > ul > li .submenu li {
   display: block;
-  padding: 10px;
+  padding: 10px 0;
   margin-right: 0;
 }
 
 .menu > ul > li .submenu li a {
-  line-height: 14px;
-  font-size: 14px;
+  line-height: 18px;
+  font-size: 18px;
 }
 
 .menu > ul > li .submenu li a:hover {

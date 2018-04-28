@@ -2,8 +2,7 @@
 
 $('.slider').slick({
   dots: true,
-  autoplay: true,
-  arrows: false
+  autoplay: true
 });
 function initMap() {
   var uluru = { lat: 46.440775, lng: 30.638143 };
